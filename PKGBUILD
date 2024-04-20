@@ -2,7 +2,7 @@
 
 pkgname=mint-backgrounds-lisa
 pkgver=1.1
-pkgrel=1
+pkgrel=2
 pkgdesc="The backgrounds included in Linux Mint 12 Lisa"
 license=('Various')
 arch=('any')
@@ -17,4 +17,6 @@ package() {
   cp --archive ${srcdir}/${pkgname}/usr/share/backgrounds/linuxmint-lisa ${pkgdir}/usr/share/backgrounds
   cp --archive ${srcdir}/${pkgname}/usr/share/gnome-background-properties/* ${pkgdir}/usr/share/cinnamon-background-properties
   cp --archive ${srcdir}/${pkgname}/usr/share/gnome-background-properties/* ${pkgdir}/usr/share/gnome-background-properties
+
+  find ${pkgdir}/usr/share/backgrounds/ -type f -exec chmod 0644 {} \;
 }
