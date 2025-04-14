@@ -1,7 +1,6 @@
 # mint-backgrounds-lisa
 
 ![AUR version](https://img.shields.io/aur/version/mint-backgrounds-lisa?label=AUR)
-[![Build Status](https://drone.cryptic.systems/api/badges/volker.raschek/mint-backgrounds-lisa-pkg/status.svg)](https://drone.cryptic.systems/volker.raschek/mint-backgrounds-lisa-pkg)
 ![AUR votes](https://img.shields.io/aur/votes/mint-backgrounds-lisa)
 
 This repository contains build files to build the Arch Linux package `mint-backgrounds-lisa`. Instead of building the
